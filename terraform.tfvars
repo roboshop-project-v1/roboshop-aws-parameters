@@ -7,5 +7,7 @@ parameters = {
     "rds.dev.master_database" = {type = "String",value = "dummy"}
     "rds.dev.master_password" = {type = "String",value = "roboshop1234"}
 
+    "user.dev.REDIS_HOST" = {type = "String",value = "dev-rds-cluster.cluster-cfoi66g2yl8u.us-east-1.rds.amazonaws.com"}
+
 }
 env = "dev"
