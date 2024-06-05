@@ -16,8 +16,8 @@ parameters = {
     "cart.dev.CATALOGUE_PORT" = {type = "String",value = "80"}
 
     "shipping.dev.CART_ENDPOINT" = {type = "String",value = "cart-dev.jdevops.online:80"}
-    #this needs to be changed
-    "shipping.dev.DB_HOST" = {type = "String",value = "mysql-rds-cluster"}
+    
+    "shipping.dev.DB_HOST" = {type = "String",value = "dev-rds-cluster.cluster-cfoi66g2yl8u.us-east-1.rds.amazonaws.com"}
     #mysql schema file also needs to be changed
 
 
