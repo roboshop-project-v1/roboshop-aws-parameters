@@ -8,7 +8,7 @@ parameters = {
     "rds.dev.master_password" = {type = "String",value = "roboshop1234"}
 
     #this needs to be changed
-    "user.dev.REDIS_HOST" = {type = "String",value = "dev-rds-cluster.cluster-cfoi66g2yl8u.us-east-1.rds.amazonaws.com"}
+    "user.dev.REDIS_HOST" = {type = "String",value = "dev-elasticache-cluster.eufbas.0001.use1.cache.amazonaws.com"}
     #this needs to be changed
     "cart.dev.REDIS_HOST" = {type = "String",value = "dev-rds-cluster.cluster-cfoi66g2yl8u.us-east-1.rds.amazonaws.com"}
 
