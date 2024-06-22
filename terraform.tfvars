@@ -28,5 +28,8 @@ parameters = {
     "payment.dev.AMQP_HOST" =  {type = "String",value = "rabbitmq-dev.jdevops.online"}
     "rabbitmq.dev.AMQP_USER" =  {type = "String",value = "roboshop"}
     "rabbitmq.dev.AMQP_PASS" =  {type = "String",value = "roboshop123"}
+
+    "elasticsearch.username" =  {type = "String",value = "elastic"}
+    "elasticsearch.password" =  {type = "String",value = "j-jgCoG0o3iHsGmpqGOp"}
 }
 env = "dev"
